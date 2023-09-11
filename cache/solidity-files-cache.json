@@ -1,9 +1,80 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
+    "/home/darko/darko/Hardhat/contracts/GasOpt.sol": {
+      "lastModificationDate": 1694270516815,
+      "contentHash": "8ed778a8c3fc3b4878f0d9b3c42f2f27",
+      "sourceName": "contracts/GasOpt.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Gas_opt"
+      ]
+    },
+    "/home/darko/darko/Hardhat/contracts/Reentrancy.sol": {
+      "lastModificationDate": 1694430910425,
+      "contentHash": "040dee273362e6006c6d5829001177b1",
+      "sourceName": "contracts/Reentrancy.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Attack",
+        "EtherStore"
+      ]
+    },
     "/home/darko/darko/Hardhat/contracts/Token.sol": {
-      "lastModificationDate": 1694083683985,
-      "contentHash": "673a3d72b41b56fe8556498424770582",
+      "lastModificationDate": 1694275110633,
+      "contentHash": "366607afb34f4fc18f2c0f01322ed924",
       "sourceName": "contracts/Token.sol",
       "solcConfig": {
         "version": "0.8.19",
@@ -32,7 +103,7 @@
         "hardhat/console.sol"
       ],
       "versionPragmas": [
-        "^0.8.0"
+        "^0.8.17"
       ],
       "artifacts": [
         "Token"
@@ -71,6 +142,41 @@
       ],
       "artifacts": [
         "console"
+      ]
+    },
+    "/home/darko/darko/Hardhat/contracts/Vulnerable.sol": {
+      "lastModificationDate": 1694430352228,
+      "contentHash": "fc9023990f66fccba55791f2d9ae21a7",
+      "sourceName": "contracts/Vulnerable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Overflow"
       ]
     }
   }
